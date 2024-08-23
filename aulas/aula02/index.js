@@ -7,9 +7,6 @@ function Cabecalho() {
 }
 
 
-
-
-
 function Conteudo() {
     const main = document.createElement("main");
     return main;
@@ -30,10 +27,10 @@ function PageLogin() {
 }
 
 
-function Pagehome(){
+function Pagehome() {
 
 
-    cosnt cabecalho = Cabecalho();
+    const cabecalho = Cabecalho();
     const conteudo = conteudo();
     root.append(cabecalho, conteudo);
 }
